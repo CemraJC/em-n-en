@@ -1,10 +1,12 @@
+---
+---
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Em-n-en</title>
+  <title>{{ site.title }}</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="description" content="Type en and em dash - right on your keyboard">
+  <meta name="description" content="Type en and em dash - right on your keyboard">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="icon" href="icon/Eminen-icon.png">
   <link rel="stylesheet" href="css/main.css">
@@ -13,7 +15,7 @@
 
 <div class="wrapper">
     <header>
-      <h1 class="main-header">Em-n-en</h1>
+      <h1 class="main-header">{{ site.title }}</h1>
       <small><i>Pronounced like M&amp;M, but with an &quot;en&quot;.</i></small>
       <p class="dash">If you're a serious writer, you probably need this.</p>
     </header>
@@ -22,19 +24,20 @@
       <div class="left">
         <h1>What's this?</h1>
         <p>Simple: <b>Type en dashes—and em dashes—</b>from the comfort of you keyboard. If you're a serious writer, then boost your cred—use these dashes.</p>
-        <p><b>Em-n-en can be set-and-forget.</b> Simply download the Binary (on the right), open it, set it to Start on Windows Startup, and never fiddle with it again. You could be up and running in less than a minute.</p>
+        <p><b>{{ site.title }} can be set-and-forget.</b> Simply <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo_name }}/releases/latest">download the program</a>, open it, set it to Start on Windows Startup, and never fiddle with it again. You could be up and running in less than a minute.</p>
       </div>
       <div class="spacer"></div>
       <div class="right">
         <h1>Get it here:</h1>
-        <p><b>Binary Executable:</b> <a href="https://github.com/cemrajc/em-n-en/releases/latest" title="Github">Download</a></p>
-        <p><b>Source Code (zip):</b> <a href="https://github.com/CemraJC/clickfix/tarball/master" title="Github">Download</a></p>
-        <p><b>Source Code (tar):</b> <a href="https://github.com/CemraJC/clickfix/zipball/master" title="Github">Download</a></p>
+        <small><i><b>Windows only</b> - others coming soon.</i></small>
+        <p><b>Binary Executable:</b> <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo_name }}/releases/latest" title="Github Binary Release">Download</a></p>
+        <p><b>Source Code (tar):</b> <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo_name }}/tarball/master" title="Github Tarball">Download</a></p>
+        <p><b>Source Code (zip):</b> <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo_name }}/zipball/master" title="Github Zipball">Download</a></p>
         <br>
         <h2>Other things:</h2>
-        <p><b>Em-n-en Repo:</b> <a href="https://github.com/cemrajc/em-n-en" title="Github">github.com/cemrajc/em-n-en</a></p>
-        <p><b>Author's Github:</b> <a href="https://github.com/cemrajc/" title="Github">github.com/cemrajc</a></p>
-        <p><b>Author's Email:</b> <a href="mailto:cemrajc+em-n-en@gmail.com">cemrajc+em-n-en@gmail.com</a></p>
+        <p><b>Em-n-en Repo:</b> <a href="https://github.com/{{ site.github_username }}/em-n-en" title="Github">github.com/{{ site.github_username }}/em-n-en</a></p>
+        <p><b>Author's Github:</b> <a href="https://github.com/{{ site.github_username }}/" title="Github">github.com/{{ site.github_username }}</a></p>
+        <p><b>Author's Email:</b> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       </div>
     </article>
 </div>
