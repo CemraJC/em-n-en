@@ -1,0 +1,54 @@
+.wrapper {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 5rem 0 4rem 0;
+
+    & h1.main-header {
+        font-size: 500%;
+        margin-bottom: 0;
+        line-height: 1;
+    }
+
+    & small {
+        color: $grey;
+    }
+
+    & h3.dash {
+        margin-top: 2rem;
+        padding: 0.5rem 0;
+
+        background: $text-color;
+        color: $text-color-inv;
+
+        border-radius: 0.5rem;
+    }
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+
+    & .right, & .left {
+        flex: 1;
+    }
+
+    & .right {
+        p {
+            margin-bottom: 0;
+            font-family: monospace;
+            font-size: 120%;
+            line-height: 1.7;
+        }
+    }
+
+    & .spacer {
+        width: 5rem;
+    }
+}
