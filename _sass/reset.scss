@@ -1,0 +1,74 @@
+/**
+ * Reset some basic elements
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    border-bottom: 1px solid $brand-color;
+
+    &:visited {
+        color: $brand-color;
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}

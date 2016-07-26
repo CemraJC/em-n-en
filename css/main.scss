@@ -1,0 +1,17 @@
+---
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-line-height:    1.72;
+
+$spacing-unit:        2rem;
+
+$text-color:          #111;
+$text-color-inv:   #F0F0F0;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+@import "reset",
+        "layout";
