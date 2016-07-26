@@ -1,11 +1,11 @@
-# Eminen
+# Em-n-en
 
 > Em and En dash keyboard-ization –(^—^)–
 > Windows Only
 
 If you're a writer, then you need the Em and En dashes. This ultra-simple program makes it easy for you to just type the dash and move on. It does this in a variety of ways - you choose which one's you like.
 
-### [&rarr; Download Here &larr;](https://github.com/cemrajc/eminen/releases/latest)
+### [&rarr; Download Here &larr;](https://github.com/cemrajc/em-n-en/releases/latest)
 
 #### How to use:
 
@@ -17,9 +17,9 @@ If you're a writer, then you need the Em and En dashes. This ultra-simple progra
 1. Click "Ok"
 1. Profit :smile:
 
-Now, Eminen will live in your tray – accessible by its icon. Look forward to better writing!
+Now, Em-n-en will live in your tray – accessible by its icon. Look forward to better writing!
 
-If you ever want to remove Eminen, just run it, right-click on the tray icon, click "Reset" and then delete its folder.
+If you ever want to remove Em-n-en, just run it, right-click on the tray icon, click "Reset" and then delete its folder.
 
 #### List of Ways to Make Some Dashes:
 
@@ -29,4 +29,4 @@ If you ever want to remove Eminen, just run it, right-click on the tray icon, cl
 | Inline Replace |  Type `--=` for **En dash** (–) <br> Type `==-` for **Em dash** (—) |
 | Hard Replace   |  Replaces hyphen (-) with **En dash** (–) all the time (*this is probably a bad idea*) |
 
-That's all there is to it! If you have some other way you would like implemented, then [send me a message!](cemrajc+eminen@gmail.com)
+That's all there is to it! If you have some other way you would like implemented, then [send me a message!](cemrajc+em-n-en@gmail.com)
