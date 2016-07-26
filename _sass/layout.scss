@@ -1,5 +1,6 @@
 .wrapper {
     max-width: 50rem;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -11,23 +12,41 @@ header {
     margin: 5rem 0 4rem 0;
 
     & h1.main-header {
-        font-size: 500%;
+        font-family: $script-font-family;
+        font-size: 650%;
         margin-bottom: 0;
         line-height: 1;
     }
 
     & small {
+        font-family: $serif-font-family;
         color: $grey;
     }
 
-    & h3.dash {
+    & .dash {
+        font-family: $serif-font-family;
         margin-top: 2rem;
-        padding: 0.5rem 0;
+        padding: 0.5rem 0.5rem;
 
         background: $text-color;
         color: $text-color-inv;
 
         border-radius: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 25rem) {
+    body {
+        font-size: 70%;
+    }
+    header h1.main-header {
+        font-size: 450%;
+    }
+    article {
+        & div.spacer {
+            flex-shrink: 0;
+            width: 2rem;
+        }
     }
 }
 
@@ -49,6 +68,7 @@ article {
     }
 
     & .spacer {
+        flex-shrink: 0;
         width: 5rem;
     }
 }
