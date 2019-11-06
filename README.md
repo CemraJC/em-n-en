@@ -9,7 +9,7 @@ If you're a writer, then you need the Em and En dashes. This ultra-simple progra
 
 #### How to use:
 
-1. Download the latest release (link above)
+1. Download the latest release (link above or run `choco install em-n-en` to install via [Chocolatey](https://chocolatey.org/packages/em-n-en))
 1. Put it in its own folder
 1. Run it (double click on it)
 1. Choose your options – there is one recommended by default
